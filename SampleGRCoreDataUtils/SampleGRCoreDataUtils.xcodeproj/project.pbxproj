@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		346FA2821B821C520000607D /* GRCoreDataUtils+AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FA2811B821C520000607D /* GRCoreDataUtils+AppDelegate.swift */; };
+		346FA2861B822F230000607D /* GRPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FA2841B822F230000607D /* GRPresenter.swift */; };
+		346FA2871B822F230000607D /* UIView+GRPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FA2851B822F230000607D /* UIView+GRPresenter.swift */; };
+		346FA2981B822F6C0000607D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FA2891B822F6C0000607D /* AppDelegate.swift */; };
+		346FA2991B822F6C0000607D /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FA28B1B822F6C0000607D /* UsersViewController.swift */; };
+		346FA29A1B822F6C0000607D /* SampleGRCoreDataUtils.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 346FA28F1B822F6C0000607D /* SampleGRCoreDataUtils.xcdatamodeld */; };
+		346FA29E1B82301E0000607D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FA29D1B82301E0000607D /* Constants.swift */; };
+		346FA2A31B8230FE0000607D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FA2A21B8230FE0000607D /* User.swift */; };
+		346FA2A51B82311B0000607D /* UserDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FA2A41B82311B0000607D /* UserDAO.swift */; };
+		346FA2A71B8236CD0000607D /* EditUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FA2A61B8236CD0000607D /* EditUserViewController.swift */; };
+		346FA2A91B8237090000607D /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FA2A81B8237090000607D /* UserPresenter.swift */; };
+		34F28FB11B7E28EE008C03F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34F28FAF1B7E28EE008C03F4 /* Main.storyboard */; };
+		34F28FB31B7E28EE008C03F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34F28FB21B7E28EE008C03F4 /* Images.xcassets */; };
+		34F28FB61B7E28EE008C03F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34F28FB41B7E28EE008C03F4 /* LaunchScreen.xib */; };
+		34F28FC21B7E28EE008C03F4 /* SampleGRCoreDataUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F28FC11B7E28EE008C03F4 /* SampleGRCoreDataUtilsTests.swift */; };
+		34F28FCD1B7E29CA008C03F4 /* GRCoreDataUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F28FCC1B7E29CA008C03F4 /* GRCoreDataUtils.swift */; };
+		34F28FCF1B7E2A03008C03F4 /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F28FCE1B7E2A03008C03F4 /* Macros.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34F28FBC1B7E28EE008C03F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34F28F9B1B7E28EE008C03F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F28FA21B7E28EE008C03F4;
+			remoteInfo = SampleGRCoreDataUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		346FA2811B821C520000607D /* GRCoreDataUtils+AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GRCoreDataUtils+AppDelegate.swift"; sourceTree = "<group>"; };
+		346FA2841B822F230000607D /* GRPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRPresenter.swift; sourceTree = "<group>"; };
+		346FA2851B822F230000607D /* UIView+GRPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+GRPresenter.swift"; sourceTree = "<group>"; };
+		346FA2891B822F6C0000607D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		346FA28B1B822F6C0000607D /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		346FA2901B822F6C0000607D /* SampleGRCoreDataUtils.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SampleGRCoreDataUtils.xcdatamodel; sourceTree = "<group>"; };
+		346FA29D1B82301E0000607D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		346FA2A21B8230FE0000607D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		346FA2A41B82311B0000607D /* UserDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDAO.swift; sourceTree = "<group>"; };
+		346FA2A61B8236CD0000607D /* EditUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditUserViewController.swift; sourceTree = "<group>"; };
+		346FA2A81B8237090000607D /* UserPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
+		34F28FA31B7E28EE008C03F4 /* SampleGRCoreDataUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleGRCoreDataUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F28FA71B7E28EE008C03F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F28FB01B7E28EE008C03F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34F28FB21B7E28EE008C03F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34F28FB51B7E28EE008C03F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		34F28FBB1B7E28EE008C03F4 /* SampleGRCoreDataUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleGRCoreDataUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F28FC01B7E28EE008C03F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34F28FC11B7E28EE008C03F4 /* SampleGRCoreDataUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleGRCoreDataUtilsTests.swift; sourceTree = "<group>"; };
+		34F28FCC1B7E29CA008C03F4 /* GRCoreDataUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GRCoreDataUtils.swift; sourceTree = "<group>"; };
+		34F28FCE1B7E2A03008C03F4 /* Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34F28FA01B7E28EE008C03F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F28FB81B7E28EE008C03F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		346FA2831B822F230000607D /* GRPresenterSwift */ = {
+			isa = PBXGroup;
+			children = (
+				346FA2841B822F230000607D /* GRPresenter.swift */,
+				346FA2851B822F230000607D /* UIView+GRPresenter.swift */,
+			);
+			name = GRPresenterSwift;
+			path = ../../GRPresenterSwift/GRPresenterSwift;
+			sourceTree = "<group>";
+		};
+		346FA2881B822F6C0000607D /* application */ = {
+			isa = PBXGroup;
+			children = (
+				346FA2891B822F6C0000607D /* AppDelegate.swift */,
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		346FA28A1B822F6C0000607D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				346FA28B1B822F6C0000607D /* UsersViewController.swift */,
+				346FA2A61B8236CD0000607D /* EditUserViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		346FA28C1B822F6C0000607D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				346FA28D1B822F6C0000607D /* dao */,
+				346FA28E1B822F6C0000607D /* entities */,
+				346FA28F1B822F6C0000607D /* SampleGRCoreDataUtils.xcdatamodeld */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		346FA28D1B822F6C0000607D /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				346FA2A41B82311B0000607D /* UserDAO.swift */,
+			);
+			path = dao;
+			sourceTree = "<group>";
+		};
+		346FA28E1B822F6C0000607D /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				346FA2A21B8230FE0000607D /* User.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		346FA2911B822F6C0000607D /* presenters */ = {
+			isa = PBXGroup;
+			children = (
+				346FA2A81B8237090000607D /* UserPresenter.swift */,
+			);
+			path = presenters;
+			sourceTree = "<group>";
+		};
+		346FA2921B822F6C0000607D /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				346FA29D1B82301E0000607D /* Constants.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		346FA2971B822F6C0000607D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				34F28FB41B7E28EE008C03F4 /* LaunchScreen.xib */,
+				34F28FAF1B7E28EE008C03F4 /* Main.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		34F28F9A1B7E28EE008C03F4 = {
+			isa = PBXGroup;
+			children = (
+				34F28FA51B7E28EE008C03F4 /* SampleGRCoreDataUtils */,
+				34F28FBE1B7E28EE008C03F4 /* SampleGRCoreDataUtilsTests */,
+				34F28FA41B7E28EE008C03F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34F28FA41B7E28EE008C03F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34F28FA31B7E28EE008C03F4 /* SampleGRCoreDataUtils.app */,
+				34F28FBB1B7E28EE008C03F4 /* SampleGRCoreDataUtilsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34F28FA51B7E28EE008C03F4 /* SampleGRCoreDataUtils */ = {
+			isa = PBXGroup;
+			children = (
+				346FA2831B822F230000607D /* GRPresenterSwift */,
+				34F28FCB1B7E29B1008C03F4 /* GRCoreDataUtils */,
+				346FA2881B822F6C0000607D /* application */,
+				346FA28A1B822F6C0000607D /* controllers */,
+				346FA28C1B822F6C0000607D /* models */,
+				346FA2911B822F6C0000607D /* presenters */,
+				346FA2921B822F6C0000607D /* utils */,
+				346FA2971B822F6C0000607D /* views */,
+				34F28FB21B7E28EE008C03F4 /* Images.xcassets */,
+				34F28FA61B7E28EE008C03F4 /* Supporting Files */,
+			);
+			path = SampleGRCoreDataUtils;
+			sourceTree = "<group>";
+		};
+		34F28FA61B7E28EE008C03F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34F28FA71B7E28EE008C03F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34F28FBE1B7E28EE008C03F4 /* SampleGRCoreDataUtilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				34F28FC11B7E28EE008C03F4 /* SampleGRCoreDataUtilsTests.swift */,
+				34F28FBF1B7E28EE008C03F4 /* Supporting Files */,
+			);
+			path = SampleGRCoreDataUtilsTests;
+			sourceTree = "<group>";
+		};
+		34F28FBF1B7E28EE008C03F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34F28FC01B7E28EE008C03F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34F28FCB1B7E29B1008C03F4 /* GRCoreDataUtils */ = {
+			isa = PBXGroup;
+			children = (
+				34F28FCC1B7E29CA008C03F4 /* GRCoreDataUtils.swift */,
+				346FA2811B821C520000607D /* GRCoreDataUtils+AppDelegate.swift */,
+				34F28FCE1B7E2A03008C03F4 /* Macros.swift */,
+			);
+			name = GRCoreDataUtils;
+			path = ../../GRCoreDataUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34F28FA21B7E28EE008C03F4 /* SampleGRCoreDataUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F28FC51B7E28EE008C03F4 /* Build configuration list for PBXNativeTarget "SampleGRCoreDataUtils" */;
+			buildPhases = (
+				34F28F9F1B7E28EE008C03F4 /* Sources */,
+				34F28FA01B7E28EE008C03F4 /* Frameworks */,
+				34F28FA11B7E28EE008C03F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleGRCoreDataUtils;
+			productName = SampleGRCoreDataUtils;
+			productReference = 34F28FA31B7E28EE008C03F4 /* SampleGRCoreDataUtils.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34F28FBA1B7E28EE008C03F4 /* SampleGRCoreDataUtilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34F28FC81B7E28EE008C03F4 /* Build configuration list for PBXNativeTarget "SampleGRCoreDataUtilsTests" */;
+			buildPhases = (
+				34F28FB71B7E28EE008C03F4 /* Sources */,
+				34F28FB81B7E28EE008C03F4 /* Frameworks */,
+				34F28FB91B7E28EE008C03F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34F28FBD1B7E28EE008C03F4 /* PBXTargetDependency */,
+			);
+			name = SampleGRCoreDataUtilsTests;
+			productName = SampleGRCoreDataUtilsTests;
+			productReference = 34F28FBB1B7E28EE008C03F4 /* SampleGRCoreDataUtilsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34F28F9B1B7E28EE008C03F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Gnatsel Reivilo";
+				TargetAttributes = {
+					34F28FA21B7E28EE008C03F4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					34F28FBA1B7E28EE008C03F4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 34F28FA21B7E28EE008C03F4;
+					};
+				};
+			};
+			buildConfigurationList = 34F28F9E1B7E28EE008C03F4 /* Build configuration list for PBXProject "SampleGRCoreDataUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34F28F9A1B7E28EE008C03F4;
+			productRefGroup = 34F28FA41B7E28EE008C03F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34F28FA21B7E28EE008C03F4 /* SampleGRCoreDataUtils */,
+				34F28FBA1B7E28EE008C03F4 /* SampleGRCoreDataUtilsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34F28FA11B7E28EE008C03F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F28FB11B7E28EE008C03F4 /* Main.storyboard in Resources */,
+				34F28FB61B7E28EE008C03F4 /* LaunchScreen.xib in Resources */,
+				34F28FB31B7E28EE008C03F4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F28FB91B7E28EE008C03F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34F28F9F1B7E28EE008C03F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346FA2991B822F6C0000607D /* UsersViewController.swift in Sources */,
+				346FA2871B822F230000607D /* UIView+GRPresenter.swift in Sources */,
+				34F28FCF1B7E2A03008C03F4 /* Macros.swift in Sources */,
+				346FA2A71B8236CD0000607D /* EditUserViewController.swift in Sources */,
+				346FA2981B822F6C0000607D /* AppDelegate.swift in Sources */,
+				346FA2821B821C520000607D /* GRCoreDataUtils+AppDelegate.swift in Sources */,
+				346FA29E1B82301E0000607D /* Constants.swift in Sources */,
+				34F28FCD1B7E29CA008C03F4 /* GRCoreDataUtils.swift in Sources */,
+				346FA29A1B822F6C0000607D /* SampleGRCoreDataUtils.xcdatamodeld in Sources */,
+				346FA2A51B82311B0000607D /* UserDAO.swift in Sources */,
+				346FA2A91B8237090000607D /* UserPresenter.swift in Sources */,
+				346FA2A31B8230FE0000607D /* User.swift in Sources */,
+				346FA2861B822F230000607D /* GRPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F28FB71B7E28EE008C03F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F28FC21B7E28EE008C03F4 /* SampleGRCoreDataUtilsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34F28FBD1B7E28EE008C03F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34F28FA21B7E28EE008C03F4 /* SampleGRCoreDataUtils */;
+			targetProxy = 34F28FBC1B7E28EE008C03F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34F28FAF1B7E28EE008C03F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F28FB01B7E28EE008C03F4 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		34F28FB41B7E28EE008C03F4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34F28FB51B7E28EE008C03F4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34F28FC31B7E28EE008C03F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34F28FC41B7E28EE008C03F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34F28FC61B7E28EE008C03F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SampleGRCoreDataUtils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34F28FC71B7E28EE008C03F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SampleGRCoreDataUtils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34F28FC91B7E28EE008C03F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SampleGRCoreDataUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleGRCoreDataUtils.app/SampleGRCoreDataUtils";
+			};
+			name = Debug;
+		};
+		34F28FCA1B7E28EE008C03F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SampleGRCoreDataUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleGRCoreDataUtils.app/SampleGRCoreDataUtils";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34F28F9E1B7E28EE008C03F4 /* Build configuration list for PBXProject "SampleGRCoreDataUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F28FC31B7E28EE008C03F4 /* Debug */,
+				34F28FC41B7E28EE008C03F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F28FC51B7E28EE008C03F4 /* Build configuration list for PBXNativeTarget "SampleGRCoreDataUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F28FC61B7E28EE008C03F4 /* Debug */,
+				34F28FC71B7E28EE008C03F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34F28FC81B7E28EE008C03F4 /* Build configuration list for PBXNativeTarget "SampleGRCoreDataUtilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F28FC91B7E28EE008C03F4 /* Debug */,
+				34F28FCA1B7E28EE008C03F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		346FA28F1B822F6C0000607D /* SampleGRCoreDataUtils.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				346FA2901B822F6C0000607D /* SampleGRCoreDataUtils.xcdatamodel */,
+			);
+			currentVersion = 346FA2901B822F6C0000607D /* SampleGRCoreDataUtils.xcdatamodel */;
+			path = SampleGRCoreDataUtils.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 34F28F9B1B7E28EE008C03F4 /* Project object */;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C371011E-C638-4521-B7C4-8BBA65E1F805</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SampleGRCoreDataUtils</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E02ED7D8B77E8EA887340EA43BB078685D9D16B7</key>
+		<string>https://github.com/gnatsel/GRCoreDataUtilsSwift.git</string>
+		<key>F3764E17646E22B1130986116866A95BA621732A</key>
+		<string>https://github.com/gnatsel/GRPresenterSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SampleGRCoreDataUtils/SampleGRCoreDataUtils.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E02ED7D8B77E8EA887340EA43BB078685D9D16B7</key>
+		<string>../../..</string>
+		<key>F3764E17646E22B1130986116866A95BA621732A</key>
+		<string>../../..GRPresenterSwift/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gnatsel/GRCoreDataUtilsSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E02ED7D8B77E8EA887340EA43BB078685D9D16B7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E02ED7D8B77E8EA887340EA43BB078685D9D16B7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GRCoreDataUtilsSwift</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F3764E17646E22B1130986116866A95BA621732A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GRPresenterSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
